@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+.cabecalho{
+    margin: 0;
+    padding: 0;
+    color: rgb(2, 2, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(137, 175, 247);
+}
+.pcabecalho {
+    background-color: rgb(170, 198, 248);
+    text-align: center; 
+    margin: 0; 
+    padding: 2px;
+}
+
+h2 {
+    color: rgb(2, 2, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 181, 181);
+    padding: 10px;
+    border-bottom: 3px solid rgb(2, 2, 155);
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 132, 132);
+}
+
+a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.menu a {
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px; /* Espaço entre os botões */
+    width: 100%; /* Ocupa a largura total da página */
+    padding-right: 20px;/* Espaço opcional à direita */
+}
+
+button {
+    padding: 05px;
+    width:75px;
+    height: 40px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* adiciona uma transição suave */
+}
+
+button:hover {
+    background-color: rgb(187, 185, 185);
+    transform: scale(0.9)/* reduz o tamanho do botão em 10% */;
+}
