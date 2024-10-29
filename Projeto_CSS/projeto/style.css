@@ -84,3 +84,22 @@ article h2 {
     padding: 8px;
     margin-top: 0;
 }
+
+.btn {
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+    
+}
+
+.footer {
+    color: white;
+    background-color: #8c8d8a;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+}
